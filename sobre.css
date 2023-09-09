@@ -1,0 +1,40 @@
+section {
+    padding: 32px;
+}
+
+section.text {
+    display: flex;
+    flex-direction: column;    
+    gap: 16px;
+    width: 90%;
+}
+
+section.text p {
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+h3 { 
+    font-size: 32px;
+    margin-bottom: 16px;
+}
+
+nav {
+    background-color: #5e5c5b;
+    width: 200px;
+    height: 100%;
+}
+
+@media screen and (max-width: 600px) {
+    section {
+        padding: 16px;
+    }
+
+    section.text {
+        width: 90%;
+    }
+
+    p {
+        font-size: 20px;
+    }
+}

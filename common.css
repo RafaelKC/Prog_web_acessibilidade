@@ -48,7 +48,7 @@ header img {
 
 nav {
     background-color: #5e5c5b;
-    width: 13vw;
+    width: 200px;
     height: 100%;
 }
 
@@ -94,3 +94,51 @@ main {
     background-color: #E6AF2E;
 }
 
+@media screen and (max-width: 600px) {
+
+    body {
+        width: 95%;
+        margin: 0;
+    }
+
+    main {
+        padding: 0px;
+    }
+
+    header {
+        padding-right: 16px;
+        width: 100%;
+    }
+
+    header > h1 {
+        font-size: 25px;
+    }
+
+    header > img {
+        height: 7vh;
+    }
+
+    #content {
+        flex-direction: column;
+    }
+
+    nav {
+        width: 100vw;
+        display: flex;
+        align-items: center;
+        height: 23px;
+    }
+
+    nav h2 {
+        font-size: 20px;
+    }
+
+    nav ul {
+        flex-direction: row;
+        margin-top: 0px;
+    }
+
+    nav ul li a {
+        font-size: 17px;
+    }
+  }
