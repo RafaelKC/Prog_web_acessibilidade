@@ -1,0 +1,38 @@
+section {
+    padding: 32px;
+}
+
+section.text {
+    display: flex;
+    flex-direction: column;    
+    gap: 16px;
+     width: 40%;
+}
+
+section.text p {
+    text-align: justify;
+    text-justify: inter-word;
+
+}
+h3 { 
+    font-size: 32px;
+    margin-bottom: 16px;
+}
+
+.conteudoContainer {
+    padding: 64px;
+}
+
+.card {
+    background-color: #E6AF2E;
+    color: #191716;
+}
+
+.card::selection {
+    background-color: #191716;
+    color: #E6AF2E;
+}
+
+.card img {
+    height: 120px;
+}
