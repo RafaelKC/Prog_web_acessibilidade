@@ -1,0 +1,7 @@
+Inicio: Imagems, texto simples com letras grandes
+Mais acessados: Imagems
+sobre: texto simples com letras grandes
+Conato: indicando quais os inputs obrigatórios
+Posts: (acessado pelo título de qualquer posts) texto simples com letras grandes
+
+Usando alt em imgs, destacando bem o que está selecionado, letras grandes, organizado. usando as tasg corretas pela semântica do HTML
