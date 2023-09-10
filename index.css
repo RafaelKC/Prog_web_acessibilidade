@@ -20,6 +20,7 @@ h3 {
 }
 
 .conteudoContainer {
+    width: 100%;
     padding: 32px;
     display: grid;
     justify-items: stretch;
@@ -82,12 +83,6 @@ h3 {
 
 .cardContent h4:hover {
     border-style: none;
-}
-
-nav {
-    background-color: #5e5c5b;
-    width: 200px;
-    height: 100%;
 }
 
 @media screen and (max-width: 600px) {

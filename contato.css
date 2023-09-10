@@ -52,12 +52,6 @@ form {
 
 }
 
-nav {
-    background-color: #5e5c5b;
-    width: 200px;
-    height: 100%;
-}
-
 @media screen and (max-width: 600px) {
     section {
         height: 10%;

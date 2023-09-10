@@ -87,6 +87,7 @@ nav ul li a.paginaAtual {
 
 main {
     padding: 32px;
+    width: 70%;
 }
 
 ::selection {
