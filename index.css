@@ -85,6 +85,22 @@ h3 {
     border-style: none;
 }
 
+.cardContent span {
+    font-size: 12px;
+}
+
+
+@media screen and (min-width: 600px) and (max-width: 1200px) {
+    .conteudoContainer {
+        grid-template-columns: auto auto;
+        gap: 40px;
+    }
+
+    section.text {
+        width: 90%;
+    }
+}
+
 @media screen and (max-width: 600px) {
     section {
         padding: 16px;
